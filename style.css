@@ -1,0 +1,182 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, rgba(235, 82, 82, 0.596) 10%, rgba(106, 225, 106, 0.759) 50%, rgba(85, 85, 236, 0.719)70%, rgb(255, 255, 255));
+
+
+}
+
+header{
+    font-family: "VT323", monospace;
+    background-color:white;
+    text-align:center;
+    font-size: 30px;
+    text-decoration: underline;
+    border-style: solid;
+    border-color: white;
+}
+
+nav{
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    border-style: solid;
+    border-color: white;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+nav > a:hover{
+    background-color: rgba(0, 0, 255, 0.49);
+    color: black;
+}
+
+main{
+    font-family: "VT323", monospace;
+    padding: 20px;
+    min-width:320px;
+    max-width: 1000px; 
+    margin: auto;
+}
+
+ main img{
+    width: 100%;
+ }
+
+ main img.pequeno{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+ }
+
+ main h2{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+main h3{
+    font-family: "VT323", monospace;
+    font-size:45px;
+    font-weight: 200;
+    text-decoration: underline; 
+}
+
+main h4{
+    font-family: "VT323", monospace;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+main p{
+    font-family: "VT323", monospace;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+main ul{
+    font-family: "VT323", monospace;
+    font-size: 22px; 
+    list-style: none;
+    padding-left: 0;
+}
+
+#charmander{
+    background-color: rgb(240, 139, 139);
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 3px;
+    margin:auto;
+}
+
+.char::before{
+    content:"🔥" ;
+}
+
+#bulbasaur{
+    background-color: rgb(119, 226, 119);
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 3px;
+    margin:auto;
+}
+
+.bulba::before{
+    content:"🍃";
+}
+
+#squirtle{
+    background-color: rgb(115, 115, 225);
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 3px;
+    margin:auto;
+}
+
+.squir::before{
+    content:"💧";
+}
+
+main audio{
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+main a{
+    text-decoration: none;
+}
+
+.poke{
+    color: darkblue;
+    padding: 2px 6px;
+    background-color: rgba(0, 0, 255, 0.138);
+}
+
+h4 a:hover.poke{
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited.poke{
+    color: darkblue;
+}
+
+.refe{
+    color: blue;
+
+}
+
+a:hover.refe{
+    background-color: antiquewhite;
+}
+
+a:visited.refe{
+      color: darkblue;    
+}
+
+#quadro{
+    margin:auto;
+    width: auto;
+    height: auto;
+    border:3px solid;
+    border-radius: 3px;
+    background-color:white;
+    padding: 10px;
+    min-width:320px;
+    max-width: 1000px; 
+}
