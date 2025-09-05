@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+*{
+    width: 100%vw;
+    height: 100vh;
+}
+
 body{
     background-image: linear-gradient(to bottom, rgba(235, 82, 82, 0.596) 10%, rgba(106, 225, 106, 0.759) 50%, rgba(85, 85, 236, 0.719)70%, rgb(255, 255, 255));
 
@@ -154,29 +159,4 @@ h4 a:hover.poke{
 
 a:visited.poke{
     color: darkblue;
-}
-
-.refe{
-    color: blue;
-
-}
-
-a:hover.refe{
-    background-color: antiquewhite;
-}
-
-a:visited.refe{
-      color: darkblue;    
-}
-
-#quadro{
-    margin:auto;
-    width: auto;
-    height: auto;
-    border:3px solid;
-    border-radius: 3px;
-    background-color:white;
-    padding: 10px;
-    min-width:320px;
-    max-width: 1000px; 
 }
