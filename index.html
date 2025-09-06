@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina inicial</title>
     <link rel="stylesheet" href="inicial.css">
+    <link rel="shortcut icon" href="imagens/pokebola-icon.webp" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -16,8 +17,11 @@
         <a href="#">Pokedex</a>
      </nav>
      <main>
-        <img src="imagens/allpokes.jpg" alt="">
-
+        <picture>
+            <source media="(max-width:900px)" srcset="imagens/allpokes-pequeno.jpg">
+            <img src="imagens/allpokes.jpg" alt="allpokes">
+            </source>
+        </picture>
      </main>
 
     <div id="quadro">

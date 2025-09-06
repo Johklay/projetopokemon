@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body{
-    background-color: lightgray;
+    background-color:white;
 }
 
 header{
@@ -17,7 +17,8 @@ header{
 }
 
 nav{
-    background-color: white;
+    background-color:white;
+    color: white;
     padding: 10px;
     font-size: 20px;
     text-align: left;
@@ -27,7 +28,7 @@ nav{
 
 nav > a{
     border: 1px solid black;
-    color: black;
+    color:black;
     text-decoration: none;
     padding: 10px;
     font-weight: bolder;
@@ -40,7 +41,13 @@ nav > a:hover{
 }
 
 main img{
-    width: 100vw;
+    margin: auto;
+    text-align: center;
+    min-width: 450px;
+    max-width: 900px;
+    margin: auto;
+    display: block;
+    padding: 10px;
 }
 
 .refe{
@@ -59,6 +66,8 @@ a:visited.refe{
 #quadro{
     margin:auto;
     text-align: center;
+    max-width: 1000px;
+    min-width: 450px;
     font-size: 20px;
     border:3px solid;
     border-radius: 3px;
