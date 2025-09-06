@@ -41,10 +41,11 @@ nav > a:hover{
 }
 
 main img{
+    width:100% ;
     margin: auto;
     text-align: center;
     min-width: 450px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     display: block;
     padding: 10px;
