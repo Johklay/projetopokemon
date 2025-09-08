@@ -2,12 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 body{
     background-color:white;
     max-width: 1000px;
@@ -39,7 +33,6 @@ nav{
 nav > a{
     border: 1px solid black;
     color:black;
-    margin-bottom: 20px;
     text-decoration: none;
     padding: 10px;
     font-weight: bolder;
@@ -62,20 +55,6 @@ main img{
     padding: 10px;
 }
 
-
-
-footer h3{
-    font-size: 23px;
-    padding: 6px;
-}
-
-
-
-footer p{
-    padding: 5px;
-    font-size: 18px;
-}
-
 .refe{
     color: blue;
 
@@ -93,8 +72,8 @@ a:visited.refe{
     text-align: center;
     max-width: 1000px;
     min-width: 320px;
+    font-size: 15px;
     margin: auto;
-    padding: 10px;
     border:3px solid;
     border-radius: 3px;
     background-color:white;
