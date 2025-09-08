@@ -5,6 +5,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -15,7 +16,7 @@ header{
     font-family: "VT323", monospace;
     background-color:white;
     text-align:center;
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
     text-decoration: underline;
     border-style: solid;
@@ -26,7 +27,7 @@ nav{
     background-color:white;
     color: white;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     border-style: solid;
     border-color: white;
@@ -35,7 +36,6 @@ nav{
 nav > a{
     border: 1px solid black;
     color:black;
-    font-size: 25px;
     text-decoration: none;
     padding: 10px;
     font-weight: bolder;
@@ -58,9 +58,16 @@ main img{
     padding: 10px;
 }
 
-footer h3, p{
+footer h3{
+    font-size: 23px;
+    padding: 6px;
+}
+
+
+
+footer p{
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .refe{
