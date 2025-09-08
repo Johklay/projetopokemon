@@ -65,9 +65,8 @@ a:visited.refe{
 }
 
 #quadro{
-    margin:auto;
-    width: auto;
-    height: auto;
+    width: 100%;
+    margin: auto;
     text-align: center;
     min-width: 320px;
     max-width: 1000px;
