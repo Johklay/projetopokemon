@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color:white;
 }
@@ -10,7 +15,8 @@ header{
     font-family: "VT323", monospace;
     background-color:white;
     text-align:center;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 20px;
     text-decoration: underline;
     border-style: solid;
     border-color: white;
@@ -29,6 +35,7 @@ nav{
 nav > a{
     border: 1px solid black;
     color:black;
+    font-size: 25px;
     text-decoration: none;
     padding: 10px;
     font-weight: bolder;
@@ -51,6 +58,11 @@ main img{
     padding: 10px;
 }
 
+footer h3, p{
+    padding: 5px;
+    font-size: 20px;
+}
+
 .refe{
     color: blue;
 
@@ -68,9 +80,9 @@ a:visited.refe{
     text-align: center;
     max-width: 1000px;
     min-width: 320px;
+    margin: auto;
     padding: 10px;
     border:3px solid;
     border-radius: 3px;
     background-color:white;
-    padding: 10px;
 }
