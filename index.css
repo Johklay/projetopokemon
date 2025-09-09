@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body{
-    background-color:black;
+    background-color:white;
 }
 
 header{
@@ -22,9 +22,10 @@ nav{
     background-color:black;
     padding:20px;
     font-size: 22px;
-    padding-top: 8px;
-    text-align: left;
+    padding-top: 20px;
+    text-align:left ;
     border-style: solid;
+    border-radius: 5px;
     border-color: white;
 }
 
@@ -32,7 +33,7 @@ nav > a{
     border: 1px solid black;
     color:white;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
     font-weight: bolder;
     border-radius: 5px;
 }
